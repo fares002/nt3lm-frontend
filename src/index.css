@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Blaka&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Blaka", system-ui 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Blaka", system-ui , source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.blaka-regular {
+  font-family: "Blaka", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  font-size: large;
+}
+
+.logo{
+  font-size: xx-large;
+}
+
+.defaultfont{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.section2{
+  background-image:url("./images/kj.png");
+}
